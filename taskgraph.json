@@ -1,7 +1,8 @@
 {
-  "name": "name",
-  "description": "desc",
-  "metadata": {},
+  "metadata": {
+    "name": "name",
+    "description": "desc",
+  },
   "tags": {},
   "tasks": {
     "test": {
