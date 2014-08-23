@@ -1,12 +1,16 @@
 {
-  "name": "name",
-  "description": "desc",
-  "metadata": {},
   "tags": {},
-  "tasks": {
-    "test": {
+  "metadata": {
+    "name": "name",
+    "owner": "owner@owner.com",
+    "description": "description"
+  },
+  "tasks": [
+    {
+      "label": "test",
       "task": {
         "metadata": {
+          "name": "Local example graph test",
           "owner": "jlal@mozilla.com"
         },
         "payload": {
@@ -16,11 +20,11 @@
           ]
         },
         "tags": {
-          "treeherderProject": "taskcluster-integration-test",
+          "treeherderProject": "taskcluster-integration",
           "treeherderSymbol": "TCT"
         }
       }
     }
-  }
+  ]
 }
 
